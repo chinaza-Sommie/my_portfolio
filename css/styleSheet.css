@@ -1,0 +1,127 @@
+
+.navbar-brand i{
+	color: #FF7976;
+	font-weight: bold;
+}
+.header-Text{
+	position: relative;
+}
+
+.header-Text p{
+	font-size: 20px;
+	color: #FF7976;
+	font-weight: bold;
+	position: absolute;
+	bottom: 10px;
+	right: 115px;
+}
+.header-Text h3,
+.about-text h4,
+.project h4{
+	color: #000A44;
+	font-style: italic;
+	/*color: pink;*/
+}
+
+.name-intro{
+	color: #001065;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.name-intro span{
+	font-weight: normal;
+	font-style: italic;
+}
+
+.lst-text{
+	color: grey;
+	font-style: italic;
+}
+
+/* ABOUT ME SECTION*/
+.about-text h4,
+.project h4{
+	font-weight: bold;
+}
+
+.abt-writeup{
+	line-height: 35px;
+	color: grey;
+	text-align: justify;
+}
+
+.abt-img img{
+	width: 100%;
+	height: 100%
+}
+
+/*==== skills ==========*/
+.skills div p{
+	color: grey;
+	font-weight: bold;
+	transition: 0.8s;
+}
+
+.skills div p:hover{
+	color: #001065;
+	cursor: pointer;
+}
+
+.check-btn{
+	background-color: #001065;
+	color: white;
+	font-weight: bold;
+	border: none; 
+}
+
+.check-btn:hover{
+	text-decoration: none;
+	color: #001065;
+	background-color: inherit;
+	transition: 0.5s;
+	border:1px solid #001065;
+	box-shadow: 5px 5px 5px grey;
+}
+
+.msg-btn,
+.call-btn:hover{
+	border: 1px solid #FF7976;
+	background-color: #FF7976;
+	color: white;
+	font-weight: bold;
+}
+
+
+
+.call-btn,
+.msg-btn:hover{
+	background-color: inherit;
+	border: 1px solid #FF7976;
+	color: #FF7976;
+	font-weight: bold;
+}
+
+.project div p{
+	color: grey;
+}
+
+@media (max-width:390px){
+	.header-Text p{
+		bottom: 0;
+		right: 20%;
+	}
+
+	.msg-img{
+		display: none;
+	}
+}
+@media (max-width: 600px){
+	.abt-img{
+		text-align: right;
+	}
+	.abt-img img{
+		width: 50%;
+		height: 90%;
+	}
+}
